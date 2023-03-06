@@ -18,8 +18,6 @@ except FileNotFoundError:
     df = pandas.DataFrame(FRENCH_WORDS_DATA)
     words_to_learn = df.values.tolist()
     print(words_to_learn)
-    # words_to_learn = [(v1, v2)for k1, v1, k2, v2 in words_to_learn_dict.items()]
-    # print(words_to_learn)
 
 
 # ---------------------------- SAVE WORDS TO LEARN ------------------------------- #
